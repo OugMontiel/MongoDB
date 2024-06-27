@@ -1,0 +1,1 @@
+{lastErrorObject: { n: 1,updatedExisting: false,upserted: ObjectId('667c81e13f80c378a26b3c7c')},value: null, ok: 1,'$clusterTime': {clusterTime: Timestamp({ t: 1719435745, i: 7 }),signature: {hash: Binary.createFromBase64('kKeX9nimtdZO+qI2LerD2VkmdKM=', 0),    keyId: Long('7327016526811234327')}},operationTime: Timestamp({ t: 1719435745, i: 5 }) }
