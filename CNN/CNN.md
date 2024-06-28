@@ -47,13 +47,44 @@ Se precisa diseñar un blog de noticias donde los usuarios registrados pueda pub
 ### 1. Consultas de los datos del usuario por nombre de usuario y por cuenta de Twitter: 
 
 ```javascript
-
+db.User.find({},{_id:0,nike:1,account:1}).toArray()
 ```
 
 ### 2. Agrupación por código postal (contar el número de usuarios de cada C.P). 
 
 ```javascript
-
+[
+  {
+    $project: {
+      address : 1
+    }
+  },
+  {
+    $unwind: "$address"
+  },
+  {
+    $project: {
+      _id:0,
+      "address.postalCode":1
+    }
+  },
+  {
+    $unwind: "$address.postalCode"
+  },
+  {
+    $group: {
+      _id:  "$address.postalCode",
+      count: {$sum:1}
+    }
+  },
+  {
+    $project: {
+      _id:0,
+	    postalCode: "$_id",
+      count:1
+  }
+  }
+]
 ```
 
 ### 3. Consultas por número de teléfono. 
