@@ -105,7 +105,7 @@ Quinta Coleccion: Rutas
 
 ```
 
-Sexta Coleccion: Envios 
+Sexta Colección: Envíos 
 
 ```json
 {
