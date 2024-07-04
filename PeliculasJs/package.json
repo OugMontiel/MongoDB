@@ -1,0 +1,15 @@
+{
+  "name": "peliculasjs",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Ejecusion de el proyecto desde Js usando POO",
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}

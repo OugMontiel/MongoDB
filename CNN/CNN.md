@@ -90,25 +90,45 @@ db.User.find({},{_id:0,nike:1,account:1}).toArray()
 ### 3. Consultas por número de teléfono. 
 
 ```javascript
-
+  db.User.find({phone:{$gt:'+987654321'}},{_id:0,nike:1,account:1}).toArray()
 ```
 
 ### 4. Consultas de noticias publicadas por usuarios.
 
 ```javascript
-
+[
+  {
+    $group: {
+      _id: "$author",
+      count: { $sum: 1 }
+    }
+  }
+]
 ```
 
 ### 5. 10 últimas noticias publicadas ordenadas por fecha (de más reciente a más antigua). 
 
  ```javascript
-
+  db.new.find({},{_id:0,title:1,body:1,date:1}).sort({date:-1}).limit(10).toArray()
  ```
 
 ### 6. Número de comentarios por noticia, por día o por usuario.
 
 ```javascript
-
+[
+  {
+    $unwind: "$Comments"
+  },
+  {
+    $group: {
+      _id: "$Comments.User",
+      numeroDeComentarios: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { numeroDeComentarios: -1 }
+  }
+]
 ```
 
 ### 7. Retornar al usuario con nombre de usuario “Frank_blog”. 
