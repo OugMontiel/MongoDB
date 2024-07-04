@@ -8,14 +8,13 @@ export class movis extends connect {
             return movis.instance;
         }
         super();
-        this.collection = this.db.collection("movie");
+        this.collection = this.db.collection("movis");
         movis.instance = this;
         return this;
     }
 
     async getAllMovis(){
         let res = await this.collection.find({},{}).toArray();
-        await this.conexion.close()
         return res;
     }
 }
