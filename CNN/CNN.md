@@ -132,55 +132,97 @@ db.User.find({},{_id:0,nike:1,account:1}).toArray()
 ```
 
 ### 7. Retornar al usuario con nombre de usuario “Frank_blog”. 
+<!-- David Miller -->
 
 ```javascript
-
-```
+db.User.find({name:"David Miller"},{_id:0,}).toArray()
+``` 
+vacio
 
 ### 8. Retornar los usuarios llamados “Peter”. 
+<!-- Daniel -->
 
 ```javascript
-
-```
+db.User.find({name:{ $regex: 'Daniel', $options: 'i' }},{_id:0,}).toArray()
+``` 
+Vacio 
 
 ### 9. Contar el número de usuarios con CP= “39005”. 
+<!-- 67890 -->
 
 ```javascript
-
+db.User.find({ address: { $elemMatch:{ postalCode: "39005" }}},{}).count()
 ```
+vacio
 
 ### 10. Retornar a un usuario con número de teléfono: “111111111”. 
+<!-- "+444444444" -->
 
 ```javascript
-
+db.User.find({phone:{$eq:"+111111111"}},{}).toArray()
 ```
 
 ### 11. Retornar nombre_usuario y cuenta_twitter, sin _id, de usuarios con CP igual o mayor que “39005”.
+<!-- 67890 -->
 
 ```javascript
-
+db.User.find({address:{$elemMatch: {postalCode:'39005'}}},{_id:0,nike:1,account:1}).toArray()
 ```
 
 ### 12. Número de noticias publicadas por usuario. 
 
 ```javascript
-
+[
+  {
+    $group: {
+      _id: "$author",
+      count: { $sum: 1 }
+    }
+  }
+]
 ```
 
 ### 11. 10 últimas noticias publicadas.
 
 ```javascript
-
+ db.new.find({},{}).sort({date:-1}).limit(10).toArray()
 ```
 
 ### 12. Noticias que no tienen el campo tag. 
+<!-- tags -->
 
  ```javascript
-
+  db.new.find({ tags: { $exists: false }},{}).toArray()
  ```
 
 ### 13. Noticias publicadas en un periodo de fechas. ¿Se podrían realizar consultas por año, mes y día sobre el campo de tipo ISOdate
 
 ```javascript
-
+[
+  {
+    $addFields: {
+      date: {
+        $dateFromString: {
+          dateString: "$date",
+          format: "%Y-%m-%d"
+        }
+      }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      title: 1,
+      date: 1
+    }
+  },
+  {
+    $match: {
+      date: {
+        $gte: new Date("2024-06-20"),
+        $lte: new Date("2024-06-25")
+      }
+    }
+  }
+]
 ```
