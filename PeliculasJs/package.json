@@ -11,5 +11,8 @@
   "description": "Ejecusion de el proyecto desde Js usando POO",
   "dependencies": {
     "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
   }
 }
