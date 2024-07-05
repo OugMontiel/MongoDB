@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "66884cf1bd394e349849831e"
+  },
+  "username": "montiel",
+  "name": "Diego Montiel",
+  "email": "Montiel1@example.com",
+  "age": 25,
+  "city": "Bucaramanga",
+  "friends": [],
+  "createdAt": {
+    "$date": "2020-06-01T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884d25bd394e349849831f"
+  },
+  "username": "Carlitos",
+  "name": "Carlotos Montiel",
+  "email": "MCaitos1@example.com",
+  "age": 26,
+  "city": "Bogota",
+  "friends": [
+    "66884cf1bd394e349849831e"
+  ],
+  "createdAt": {
+    "$date": "2021-06-01T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884d4ebd394e3498498320"
+  },
+  "username": "mateo",
+  "name": "mateo Montiel",
+  "email": "matemate@example.com",
+  "age": 20,
+  "city": "bucaramanga",
+  "friends": [
+    "66884cf1bd394e349849831e",
+    "66884d25bd394e349849831f"
+  ],
+  "createdAt": {
+    "$date": "2022-06-01T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884d73bd394e3498498321"
+  },
+  "username": "juan",
+  "name": "juan Montiel",
+  "email": "juajuajua@example.com",
+  "age": 45,
+  "city": "bucaramanga",
+  "friends": [
+    "66884cf1bd394e349849831e",
+    "66884d25bd394e349849831f"
+  ],
+  "createdAt": {
+    "$date": "2024-06-01T05:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f2fbd394e3498498323"
+  },
+  "username": "maria",
+  "name": "Maria Gonzalez",
+  "email": "maria_g@example.com",
+  "age": 32,
+  "city": "medellin",
+  "friends": [
+    "66884cf1bd394e349849831e",
+    "66884d25bd394e349849831f"
+  ],
+  "createdAt": {
+    "$date": "2024-06-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f2fbd394e3498498324"
+  },
+  "username": "carlos",
+  "name": "Carlos Perez",
+  "email": "carlosp@example.com",
+  "age": 28,
+  "city": "bogota",
+  "friends": [
+    "66884d4ebd394e3498498320",
+    "66884d73bd394e3498498321"
+  ],
+  "createdAt": {
+    "$date": "2024-06-07T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f5bbd394e3498498325"
+  },
+  "username": "luisa",
+  "name": "Luisa Martinez",
+  "email": "luisa_m@example.com",
+  "age": 37,
+  "city": "cali",
+  "friends": [
+    "66884d73bd394e3498498321",
+    "66884f2fbd394e3498498323"
+  ],
+  "createdAt": {
+    "$date": "2024-06-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f5bbd394e3498498326"
+  },
+  "username": "andres",
+  "name": "Andres Ramirez",
+  "email": "andres_r@example.com",
+  "age": 41,
+  "city": "cartagena",
+  "friends": [
+    "66884cf1bd394e349849831e",
+    "66884d4ebd394e3498498320"
+  ],
+  "createdAt": {
+    "$date": "2024-06-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f5bbd394e3498498327"
+  },
+  "username": "sandra",
+  "name": "Sandra Lopez",
+  "email": "sandra_l@example.com",
+  "age": 29,
+  "city": "barranquilla",
+  "friends": [
+    "66884f2fbd394e3498498323",
+    "66884f2fbd394e3498498324",
+    "66884d4ebd394e3498498320"
+  ],
+  "createdAt": {
+    "$date": "2024-06-13T00:00:00.000Z"
+  }
+}]

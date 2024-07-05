@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "66884e72bd394e3498498322"
+  },
+  "author": "66884d73bd394e3498498321",
+  "title": "Mi primera publicación",
+  "content": "¡Hola amigos!",
+  "tags": [
+    "saludos",
+    "primer post"
+  ],
+  "createdAt": {
+    "$date": "2024-06-27T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f8abd394e3498498328"
+  },
+  "author": "66884d73bd394e3498498321",
+  "title": "Descubriendo Bucaramanga",
+  "content": "Hoy visité el parque Santander. ¡Es hermoso!",
+  "tags": [
+    "viaje",
+    "bucaramanga"
+  ],
+  "createdAt": {
+    "$date": "2024-06-28T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f8bbd394e3498498329"
+  },
+  "author": "66884f2fbd394e3498498323",
+  "title": "Receta de Arepas",
+  "content": "Hoy les comparto mi receta favorita para hacer arepas.",
+  "tags": [
+    "receta",
+    "cocina"
+  ],
+  "createdAt": {
+    "$date": "2024-06-29T15:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f8bbd394e349849832a"
+  },
+  "author": "66884f5bbd394e3498498325",
+  "title": "Tecnología en 2024",
+  "content": "Una reflexión sobre los avances tecnológicos de este año.",
+  "tags": [
+    "tecnología",
+    "2024"
+  ],
+  "createdAt": {
+    "$date": "2024-06-30T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f8bbd394e349849832b"
+  },
+  "author": "66884f5bbd394e3498498327",
+  "title": "Mis libros favoritos",
+  "content": "Hoy quiero hablarles sobre mis libros favoritos de este año.",
+  "tags": [
+    "libros",
+    "lectura"
+  ],
+  "createdAt": {
+    "$date": "2024-07-01T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66884f8bbd394e349849832c"
+  },
+  "author": "66884f5bbd394e3498498327",
+  "title": "Aventura en la naturaleza",
+  "content": "Compartiendo mi experiencia en la última caminata por el bosque.",
+  "tags": [
+    "aventura",
+    "naturaleza"
+  ],
+  "createdAt": {
+    "$date": "2024-07-02T10:00:00.000Z"
+  }
+}]
