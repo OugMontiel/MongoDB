@@ -1,12 +1,8 @@
 # Trabajo Logistica 
 
-![image-20240702155857180](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20240702155857180.png)
-
 Creación de la base de datos En mongo partiendo de la imagen de SQL 'Normalizada'
 
-Primera colección: Sucursales 
-
-![image-20240702150709491](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20240702150709491.png)
+Primera colección: Sucursales --Naranja
 
 ```json
 {
@@ -26,7 +22,7 @@ Primera colección: Sucursales
 }
 
 ```
-Segunda Colección : Cliente 
+Segunda Colección : Cliente  -- Azul
 
 ![image-20240702155524925](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20240702155524925.png)
 
@@ -57,7 +53,7 @@ Segunda Colección : Cliente
 
 
 ```
-Tercer Coleccion: Vehiculos 
+Tercer Coleccion: Vehiculos  -- Amarillo 
 
 ```json
 {
@@ -70,7 +66,7 @@ Tercer Coleccion: Vehiculos
 
 ```
 
-Cuerto Coleccion: Empleados 
+Cuerto Coleccion: Empleados  -- Rojo
 
 ```json
 {
@@ -82,13 +78,13 @@ Cuerto Coleccion: Empleados
       "uso": "casa"
     }
   ],
-  "rol": "Auxiliar" 
+  "rol": "Auxiliar" // Rol : auxiliar, conductor 
 }
--- Rol : auxiliar, conductor 
+
 
 ```
 
-Quinta Coleccion: Rutas
+Quinta Coleccion: Rutas -- Verde
 
 ```json
 {
@@ -105,13 +101,42 @@ Quinta Coleccion: Rutas
 
 ```
 
-Sexta Colección: Envíos 
+Sexta Colección: Envíos -- Morado
 
 ```json
 {
-    envio: id 
-    cliente : id 
-    
+    "_id": ObjectId("ID único para el envío"),  // ID único para el envío
+    "cliente_id": ObjectId("ID del cliente"),  // ID del cliente
+    "paquete_id": [
+        ObjectId("ID del paquete 1"),
+        ObjectId("ID del paquete 2")
+    ],  // IDs de los paquetes
+    "sucursal_destino": ObjectId("ID Sucursal"),  // ID de la sucursal de destino
+    "sucursal_origen": ObjectId("ID Sucursal"),  // ID de la sucursal de origen
+    "estado": [
+        {
+            "estado": "En tránsito",  // Estado del envío
+            "ubicacion": {
+                "latitud": 37.7749,
+                "longitud": -122.4194
+            },  // Coordenadas
+            "fecha_hora": ISODate("2023-07-04T12:00:00Z")  // Fecha y hora del registro del estado
+        }
+    ],
+    "fecha_envio": ISODate("2023-07-04T10:00:00Z"),  // Fecha del envío
+    "ruta_id": ObjectId("ID de la Ruta"),  // ID de la ruta
+    "tipo_servicio": "Express"  // Tipo de servicio
 }
+
 ```
 
+Septima Coleccion: Paquetes -- Amarillo 
+```json 
+ {
+    "_id": ObjectId("ID único del paquete"),  // ID único para el paquete
+    "peso": "Peso en kg del artículo",  // en kg
+    "dimensiones": ["altura", "ancho", "profundidad"],  // en cm
+    "contenido": "Descripción del Artículo",
+    "valor_declarado": 100000  // en COP
+}
+```
