@@ -6,21 +6,21 @@ Primera colección: Sucursales --Naranja
 
 ```json
 {
-  "codigoSucursal": "codigo de la Sucursal",
-  "nombreSucursal": "Nombre de la Sucursal",
-  "Direccion": {
+  "_id": ObjectId("ID único de la Sucursal"),  // ID único generado por MongoDB para identificar la sucursal
+  "codigoSucursal": "Código de la Sucursal",  // Código de la sucursal
+  "nombreSucursal": "Nombre de la Sucursal",  // Nombre de la sucursal
+  "direccion": {  // Dirección de la sucursal
     "direccion": "Dirección de la Sucursal",
-    "Ciudad": {
-      "codigoCiudad": "Código de la Ciudad",
-      "nombreCiudad": "Nombre de la Ciudad",
-      "Pais": {
-        "CodigoPais": "Código del País",
-        "nombrePais": "Nombre del País"
+    "ciudad": {
+      "codigoCiudad": "Código de la Ciudad",  // Código de la ciudad
+      "nombreCiudad": "Nombre de la Ciudad",  // Nombre de la ciudad
+      "pais": {
+        "codigoPais": "Código del País",  // Código del país
+        "nombrePais": "Nombre del País"  // Nombre del país
       }
     }
   }
 }
-
 ```
 Segunda Colección : Cliente  -- Azul
 
@@ -28,57 +28,56 @@ Segunda Colección : Cliente  -- Azul
 
 ```json
 {
-  "id":"Id del cliente "
-  "nombre": "Nombre del Cliente",
-  "email": "email@ejemplo.com",
-  "telefonos": [
+  "_id": ObjectId("ID único del Cliente"),  // ID único generado por MongoDB para identificar al cliente
+  "nombre": "Nombre del Cliente",  // Nombre completo del cliente
+  "email": "email@ejemplo.com",  // Correo electrónico del cliente
+  "telefonos": [  // Array de objetos que contiene la información de contacto del cliente
     {
-      "numero": "123456789",
-      "codigoPais": "Código del País",
-      "uso": "casa"
+      "numero": "123456789",  // Número de teléfono del cliente
+      "codigoPais": "Código del País",  // Código del país del número de teléfono
+      "uso": "casa"  // Uso del número de teléfono (e.g., casa, trabajo, móvil)
     }
   ],
-  "direccion": {
+  "direccion": {  // Dirección del cliente
     "direccion": "Dirección del Cliente",
     "ciudad": {
-      "codigoCiudad": "Código de la Ciudad",
-      "nombreCiudad": "Nombre de la Ciudad",
+      "codigoCiudad": "Código de la Ciudad",  // Código de la ciudad
+      "nombreCiudad": "Nombre de la Ciudad",  // Nombre de la ciudad
       "pais": {
-        "codigoPais": "Código del País",
-        "nombrePais": "Nombre del País"
+        "codigoPais": "Código del País",  // Código del país
+        "nombrePais": "Nombre del País"  // Nombre del país
       }
     }
   }
 }
-
-
 ```
 Tercer Coleccion: Vehiculos  -- Amarillo 
 
 ```json
 {
-  "placa": "placa",
-  "marca": "marca del carro",
-  "modelo": "año del carro",
-  "capacidadDeCarga": "pesos en kg",
-  "ubicacion": "Sucursal En la que esta o a la que se dirigue"
+  "_id": ObjectId("ID único del vehículo"),  // ID único generado por MongoDB para identificar el vehículo
+  "placa": "ABC123",  // Placa del vehículo
+  "marca": "Marca del carro",  // Marca del vehículo
+  "modelo": "Año del carro",  // Año de fabricación o modelo del vehículo
+  "capacidadDeCarga": "Peso en kg",  // Capacidad de carga del vehículo en kilogramos
+  "ubicacion": "Sucursal en la que está o a la que se dirige"  // Ubicación actual del vehículo o sucursal de destino
 }
-
 ```
 
 Cuerto Coleccion: Empleados  -- Rojo
 
 ```json
 {
-  "nombre": "Nombre del Empleado",
-  "telefonos": [
+  "_id": ObjectId("ID único del Empleado"),  // ID único generado por MongoDB para identificar al empleado
+  "nombre": "Nombre del Empleado",  // Nombre completo del empleado
+  "telefonos": [  // Array de objetos que contiene la información de contacto del empleado
     {
-      "numero": "123456789",
-      "codigoPais": "Código del País",
-      "uso": "casa"
+      "numero": "123456789",  // Número de teléfono del empleado
+      "codigoPais": "Código del País",  // Código del país del número de teléfono
+      "uso": "casa"  // Uso del número de teléfono (e.g., casa, trabajo, móvil)
     }
   ],
-  "rol": "Auxiliar" // Rol : auxiliar, conductor 
+  "rol": "Auxiliar"  // Rol del empleado en la organización (e.g., Auxiliar, Conductor)
 }
 
 
@@ -88,16 +87,17 @@ Quinta Coleccion: Rutas -- Verde
 
 ```json
 {
-  "ruta": "ID de la Ruta",
-  "descripcionRuta": "Descripción de la Ruta",
-  "sucursalP": "codigo de la Sucursal",
+  "_id": ObjectId("ID único del Ruta"), // ID único para identificar la ruta
+  "descripcionRuta": "Descripción de la Ruta",  // Descripción detallada de la ruta
+  "sucursal": ObjectId("ID Sucursal"),  // Código de la sucursal 
   "auxiliar": [
-    "Nombre del Auxiliar 1",
-    "Nombre del Auxiliar 2"
+    ObjectId("ID Empleado"),  // Id  del auxiliar asociado a la ruta
+    ObjectId("ID Empleado")   // Id  del auxiliar asociado a la ruta
   ],
-  "placasVehiculo": "Placa del Vehículo",
-  "conductor": "Nombre del Conductor"
+  "placasVehiculo": "Placa del Vehículo",  // Placa del vehículo que realiza la ruta
+  "conductor": ObjectId("ID Empleado")   // Id  del conductor encargado de la ruta
 }
+
 
 ```
 
