@@ -1,6 +1,8 @@
 # Trabajo Logistica 
 
 Creación de la base de datos En mongo partiendo de la imagen de SQL 'Normalizada'
+  
+  ![ImagenSQLNormalizada](https://github.com/OugMontiel/MongoDB/blob/main/Logistica/img/Captura%20de%20pantalla%202024-07-02%20171223.png)
 
 Primera colección: Sucursales --Naranja
 
@@ -9,12 +11,13 @@ Primera colección: Sucursales --Naranja
   "_id": ObjectId("ID único de la Sucursal"),  // ID único generado por MongoDB para identificar la sucursal
   "codigoSucursal": "Código de la Sucursal",  // Código de la sucursal
   "nombreSucursal": "Nombre de la Sucursal",  // Nombre de la sucursal
-  "direccion":  ObjectId("ID único de Direccion ")
+  "direccion": {
+    "direccion": "Dirección de la Sucursal",
+    "ciudad_pais":ObjectId("ID único de Ciudad pais ")
+  } 
 }
 ```
 Segunda Colección : Cliente  -- Azul
-
-![image-20240702155524925](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20240702155524925.png)
 
 ```json
 {
@@ -28,7 +31,10 @@ Segunda Colección : Cliente  -- Azul
       "uso": "casa"  // Uso del número de teléfono (e.g., casa, trabajo, móvil)
     }
   ],
-  "direccion":  ObjectId("ID único de Direccion ")
+  "direccion": {
+    "direccion": "Dirección del Cliente",
+    "ciudad_pais":ObjectId("ID único de Ciudad pais ")
+  } 
 }
 ```
 Tercer Coleccion: Vehiculos  -- Amarillo 
@@ -40,7 +46,7 @@ Tercer Coleccion: Vehiculos  -- Amarillo
   "marca": "Marca del carro",  // Marca del vehículo
   "modelo": "Año del carro",  // Año de fabricación o modelo del vehículo
   "capacidadDeCarga": "Peso en kg",  // Capacidad de carga del vehículo en kilogramos
-  "ubicacion": "Sucursal en la que está o a la que se dirige"  // Ubicación actual del vehículo o sucursal de destino
+  "ubicacion": ObjectId("ID único de la Sucursal")  // Ubicación actual del vehículo o sucursal de destino
 }
 ```
 
@@ -57,7 +63,10 @@ Cuerto Coleccion: Empleados  -- Rojo
       "uso": "casa"  // Uso del número de teléfono (e.g., casa, trabajo, móvil)
     }
   ],
-  "direccion":  ObjectId("ID único de Direccion "),
+  "direccion": {
+    "direccion": "Dirección del Empleado",
+    "ciudad_pais":ObjectId("ID único de Ciudad pais ")
+  },
   "rol": "Auxiliar"  // Rol del empleado en la organización (e.g., Auxiliar, Conductor)
 }
 
@@ -78,8 +87,6 @@ Quinta Coleccion: Rutas -- Verde
   "placasVehiculo": "Placa del Vehículo",  // Placa del vehículo que realiza la ruta
   "conductor": ObjectId("ID Empleado")   // Id  del conductor encargado de la ruta
 }
-
-
 ```
 
 Sexta Colección: Envíos -- Morado
@@ -126,17 +133,14 @@ Octaba Coleccion: Direcciones -- Requsito escrito
 
 ```json
 {
-"_id":ObjectId("ID único de Direccion "),
-  "direccion": {  // Dirección del cliente
-    "direccion": "Dirección del Cliente",
-    "ciudad": {
-      "codigoCiudad": "Código de la Ciudad",  // Código de la ciudad
-      "nombreCiudad": "Nombre de la Ciudad",  // Nombre de la ciudad
-      "pais": {
-        "codigoPais": "Código del País",  // Código del país
-        "nombrePais": "Nombre del País"  // Nombre del país
-      }
-    }
-  }
+"_id":ObjectId("ID único de Ciudad pais "),
+  "ciudad": {
+    "codigoCiudad": "Código de la Ciudad",  // Código de la ciudad
+    "nombreCiudad": "Nombre de la Ciudad",  // Nombre de la ciudad
+  },
+  "pais": {
+      "codigoPais": "Código del País",  // Código del país
+      "nombrePais": "Nombre del País"  // Nombre del país
+    }  
 }
 ```
