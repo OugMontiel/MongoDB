@@ -1,14 +1,28 @@
 
-# Casos Multitabla
+# Casos Unitabla
 
 Caso de Uso 1: Registrar un Nuevo País
 Descripción: Un administrador desea agregar un nuevo país a la base de datos.
 ```javascript
+db.direcciones.findOneAndUpdate(
+   { "pais.nombrePais": "Alemania" },  // Busca el documento donde el nombre del país sea Alemania
+   { $set: {
+      "pais.$.codigoPais": "+49"  // Actualiza el código de llamada del país Alemania
+   }},
+   { upsert: true, returnNewDocument: true }
+)
 ```
 
 Caso de Uso 2: Registrar una Nueva Ciudad
 Descripción: Un administrador desea agregar una nueva ciudad asociada a un país existente.
 ```javascript
+db.direcciones.findOneAndUpdate(
+   { "ciudad.nombreCiudad": "Berlin" },  // Busca el documento donde el nombre de la ciudad sea Berlín
+   { $set: {
+      "ciudad.$.codigoCiudad": "30"  // Actualiza el código de la ciudad Berlín
+   }},
+   { upsert: true, returnNewDocument: true }
+)
 ```
 
 Caso de Uso 3: Registrar una Nueva Sucursal
