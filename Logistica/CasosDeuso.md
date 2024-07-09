@@ -28,31 +28,104 @@ db.direcciones.findOneAndUpdate(
 Caso de Uso 3: Registrar una Nueva Sucursal
 Descripción: Un administrador desea agregar una nueva sucursal asociada a una ciudad existente.
 ```javascript
+db.sucursales.insertOne({
+  "codigoSucursal": "SC011",  // Código de la sucursal
+  "nombreSucursal": "nueva Sucursal",  // Nombre de la sucursal
+  "direccion": {
+    "direccion": "av 33 # 45 - 52",
+    "ciudad_pais":ObjectId("668c5de8d01428f7fd52c412") //Santamarta Colombia 
+  } 
+})
 ```
 
 Caso de Uso 4: Registrar un Nuevo Cliente
 Descripción: Un administrador desea registrar un nuevo cliente en la base de datos.
 ```javascript
+db.clientes.insertOne({
+  "nombre": "Nombre del Cliente",
+  "email": "email@ejemplo.com",
+  "telefonos": [
+    {
+      "numero": "123456789",
+      "codigoPais": "+57",  // Código del país del número de teléfono de ejemplo (Colombia)
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Dirección del Cliente",
+    "ciudad_pais": ObjectId("668c5de8d01428f7fd52c412") //Santamarta Colombia 
+  }
+});
+
 ```
 
 Caso de Uso 5: Registrar un Nuevo Teléfono para un Cliente
 Descripción: Un administrador desea agregar un número de teléfono para un cliente existente.
 ```javascript
+db.cliente.find({nombre:"Maria Oliveira"},{_id:1}).toArray()
+
+db.cliente.findOneAndUpdate(
+   { "_id": ObjectId("668c5f17d01428f7fd52c43e") }, 
+   { $push: {
+      "telefonos": {
+        "numero": "987654321",
+        "codigoPais": "+57",
+        "uso": "trabajo"
+      }
+   }},
+   { upsert: true, returnNewDocument: true }
+)
 ```
 
 Caso de Uso 6: Registrar un Nuevo Paquete
 Descripción: Un administrador desea registrar un nuevo paquete en la base de datos.
 ```javascript
+db.paquetes.insertOne({
+   "peso": 2.5,
+   "dimensiones": [20, 15, 30],
+   "contenido": "Ropa y accesorios",
+   "valor_declarado": 100000,
+   "Clasificacion": "Express"
+})
 ```
 
 Caso de Uso 7: Registrar un Nuevo Envío
 Descripción: Un administrador desea registrar un nuevo envío, asociando un cliente, paquete, ruta y sucursal.
 ```javascript
+db.envios.insertOne({
+    "cliente_id": ObjectId("668c5f17d01428f7fd52c43e"),  
+    "paquete_id": [
+        ObjectId("668d31eae53be7a28a3834fe"),
+        ObjectId("668d31eae53be7a28a383507")
+    ],  
+    "sucursal_destino": ObjectId("668c5e69d01428f7fd52c42f"),  
+    "sucursal_origen": ObjectId("668c5e69d01428f7fd52c432"),  
+    "estado_Envio": [
+        {
+            "estado": "En tránsito",
+            "ubicacion": {
+                "latitud": 37.7749,
+                "longitud": -122.4194
+            }, 
+            "fecha_hora": ISODate("2024-07-04T12:00:00Z") 
+        }
+    ],
+    "fecha_envio": ISODate("2024-07-04T10:00:00Z"),  
+    "ruta_id": ObjectId("668d3015e53be7a28a3834f9")  
+})
 ```
 
 Caso de Uso 8: Registrar un Nuevo Vehículo
 Descripción: Un administrador desea agregar un nuevo vehículo a la base de datos.
 ```javascript
+db.vehiculos.insertOne({
+  "placa": "HHl165",
+  "marca": "Toyota",
+  "modelo": "2024",
+  "capacidadDeCarga": 4500,
+  "ubicacion": ObjectId("668c5e69d01428f7fd52c432")
+})
+
 ```
 
 Caso de Uso 9: Registrar un Nuevo Conductor
