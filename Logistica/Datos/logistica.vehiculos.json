@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9a8"
+  },
+  "placa": "FZT892",
+  "marca": "Ford",
+  "modelo": "2018",
+  "capacidadDeCarga": 5000,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c40b"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9a9"
+  },
+  "placa": "RMD456",
+  "marca": "Chevrolet",
+  "modelo": "2020",
+  "capacidadDeCarga": 4500,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c40c"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9aa"
+  },
+  "placa": "NKT123",
+  "marca": "Mercedes-Benz",
+  "modelo": "2019",
+  "capacidadDeCarga": 6000,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c40d"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9ab"
+  },
+  "placa": "ZLP789",
+  "marca": "Volvo",
+  "modelo": "2017",
+  "capacidadDeCarga": 5500,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c40e"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9ac"
+  },
+  "placa": "GYW345",
+  "marca": "Scania",
+  "modelo": "2021",
+  "capacidadDeCarga": 6500,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c40f"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9ad"
+  },
+  "placa": "BLX678",
+  "marca": "MAN",
+  "modelo": "2018",
+  "capacidadDeCarga": 7000,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c410"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9ae"
+  },
+  "placa": "JQK234",
+  "marca": "Iveco",
+  "modelo": "2022",
+  "capacidadDeCarga": 4800,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c411"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9af"
+  },
+  "placa": "TUM890",
+  "marca": "Isuzu",
+  "modelo": "2019",
+  "capacidadDeCarga": 5200,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c412"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9b0"
+  },
+  "placa": "VCN567",
+  "marca": "Kenworth",
+  "modelo": "2020",
+  "capacidadDeCarga": 6800,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c413"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadc6fb939deedd03e9b1"
+  },
+  "placa": "XRY123",
+  "marca": "Freightliner",
+  "modelo": "2021",
+  "capacidadDeCarga": 6200,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c414"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b2"
+  },
+  "placa": "HTG123",
+  "marca": "Volvo",
+  "modelo": "2019",
+  "capacidadDeCarga": 5500,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c415"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b3"
+  },
+  "placa": "QWE456",
+  "marca": "Ford",
+  "modelo": "2020",
+  "capacidadDeCarga": 4800,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c416"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b4"
+  },
+  "placa": "AZS789",
+  "marca": "Chevrolet",
+  "modelo": "2021",
+  "capacidadDeCarga": 6200,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c417"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b5"
+  },
+  "placa": "NMB234",
+  "marca": "Mercedes-Benz",
+  "modelo": "2018",
+  "capacidadDeCarga": 4900,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c418"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b6"
+  },
+  "placa": "RFT678",
+  "marca": "Scania",
+  "modelo": "2017",
+  "capacidadDeCarga": 5700,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c419"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b7"
+  },
+  "placa": "OLP345",
+  "marca": "MAN",
+  "modelo": "2022",
+  "capacidadDeCarga": 6300,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c41a"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b8"
+  },
+  "placa": "XYZ890",
+  "marca": "Iveco",
+  "modelo": "2019",
+  "capacidadDeCarga": 5200,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c41b"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9b9"
+  },
+  "placa": "LMN567",
+  "marca": "Isuzu",
+  "modelo": "2020",
+  "capacidadDeCarga": 5400,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c41c"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9ba"
+  },
+  "placa": "GHI234",
+  "marca": "Kenworth",
+  "modelo": "2021",
+  "capacidadDeCarga": 6600,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c41d"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cadfefb939deedd03e9bb"
+  },
+  "placa": "JKL678",
+  "marca": "Freightliner",
+  "modelo": "2018",
+  "capacidadDeCarga": 6000,
+  "ubicacion": {
+    "$oid": "668c5de8d01428f7fd52c41e"
+  }
+}]

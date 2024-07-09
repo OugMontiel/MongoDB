@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e995"
+  },
+  "nombre": "Juan Pérez",
+  "telefonos": [
+    {
+      "numero": "3012345678",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 123 #45-67",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Conductor"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e996"
+  },
+  "nombre": "Maria García",
+  "telefonos": [
+    {
+      "numero": "3023456789",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 10 #20-30",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Conductor"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e997"
+  },
+  "nombre": "Pedro López",
+  "telefonos": [
+    {
+      "numero": "3034567890",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 50 #60-70",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Conductor"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e998"
+  },
+  "nombre": "Luisa Fernández",
+  "telefonos": [
+    {
+      "numero": "3045678901",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 70 #80-90",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Conductor"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e999"
+  },
+  "nombre": "Carlos Martínez",
+  "telefonos": [
+    {
+      "numero": "3056789012",
+      "codigoPais": "+57",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 5 #15-25",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Conductor"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99a"
+  },
+  "nombre": "Ana Torres",
+  "telefonos": [
+    {
+      "numero": "3067890123",
+      "codigoPais": "+57",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 40 #50-60",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99b"
+  },
+  "nombre": "David Ramírez",
+  "telefonos": [
+    {
+      "numero": "3078901234",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 25 #35-45",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99c"
+  },
+  "nombre": "Laura Castillo",
+  "telefonos": [
+    {
+      "numero": "3089012345",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 20 #30-40",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99d"
+  },
+  "nombre": "Andrés Mendoza",
+  "telefonos": [
+    {
+      "numero": "3090123456",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 60 #70-80",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99e"
+  },
+  "nombre": "Sofía Morales",
+  "telefonos": [
+    {
+      "numero": "3101234567",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 90 #100-110",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e99f"
+  },
+  "nombre": "João Silva",
+  "telefonos": [
+    {
+      "numero": "21987654321",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua das Flores, 123",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a0"
+  },
+  "nombre": "Maria Oliveira",
+  "telefonos": [
+    {
+      "numero": "31987654321",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Brasil, 456",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a1"
+  },
+  "nombre": "Pedro Santos",
+  "telefonos": [
+    {
+      "numero": "21987654322",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Mercado, 789",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a2"
+  },
+  "nombre": "Ana Costa",
+  "telefonos": [
+    {
+      "numero": "31987654322",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Paulista, 101",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a3"
+  },
+  "nombre": "Carlos Pereira",
+  "telefonos": [
+    {
+      "numero": "21987654323",
+      "codigoPais": "+55",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Ouro, 202",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a4"
+  },
+  "nombre": "Julia Almeida",
+  "telefonos": [
+    {
+      "numero": "31987654323",
+      "codigoPais": "+55",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Atlântica, 303",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a5"
+  },
+  "nombre": "Roberto Lima",
+  "telefonos": [
+    {
+      "numero": "21987654324",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Sol, 404",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a6"
+  },
+  "nombre": "Marina Ribeiro",
+  "telefonos": [
+    {
+      "numero": "31987654324",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida das Américas, 505",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  },
+  "rol": "Auxiliar"
+},
+{
+  "_id": {
+    "$oid": "668cac5afb939deedd03e9a7"
+  },
+  "nombre": "José Nogueira",
+  "telefonos": [
+    {
+      "numero": "21987654325",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua das Palmeiras, 606",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  },
+  "rol": "Auxiliar"
+}]
