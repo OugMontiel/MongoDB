@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c429"
+  },
+  "codigoSucursal": "SC001",
+  "nombreSucursal": "Sucursal Centro",
+  "direccion": {
+    "direccion": "Calle 10 #5-20",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "codigoSucursal": "SC002",
+  "nombreSucursal": "Sucursal Norte",
+  "direccion": {
+    "direccion": "Avenida 15 #30-45",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42b"
+  },
+  "codigoSucursal": "SC003",
+  "nombreSucursal": "Sucursal Sur",
+  "direccion": {
+    "direccion": "Carrera 50 #80-15",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42c"
+  },
+  "codigoSucursal": "SC004",
+  "nombreSucursal": "Sucursal Este",
+  "direccion": {
+    "direccion": "Calle 100 #20-10",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42d"
+  },
+  "codigoSucursal": "SC005",
+  "nombreSucursal": "Sucursal Oeste",
+  "direccion": {
+    "direccion": "Avenida 68 #70-30",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42e"
+  },
+  "codigoSucursal": "SC006",
+  "nombreSucursal": "Sucursal Industrial",
+  "direccion": {
+    "direccion": "Carrera 60 #25-50",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c42f"
+  },
+  "codigoSucursal": "SC007",
+  "nombreSucursal": "Sucursal Comercial",
+  "direccion": {
+    "direccion": "Avenida 68 #45-20",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c430"
+  },
+  "codigoSucursal": "SC008",
+  "nombreSucursal": "Sucursal Financiera",
+  "direccion": {
+    "direccion": "Calle 72 #10-25",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c410"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c431"
+  },
+  "codigoSucursal": "SC009",
+  "nombreSucursal": "Sucursal Universitaria",
+  "direccion": {
+    "direccion": "Carrera 15 #65-30",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c410"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5e69d01428f7fd52c432"
+  },
+  "codigoSucursal": "SC010",
+  "nombreSucursal": "Sucursal Residencial",
+  "direccion": {
+    "direccion": "Calle 40 #30-10",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c410"
+    }
+  }
+}]

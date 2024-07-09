@@ -1,0 +1,401 @@
+[{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c433"
+  },
+  "nombre": "Juan Pérez",
+  "email": "juan.perez@example.com",
+  "telefonos": [
+    {
+      "numero": "3012345678",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 123 #45-67",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c434"
+  },
+  "nombre": "Maria García",
+  "email": "maria.garcia@example.com",
+  "telefonos": [
+    {
+      "numero": "3023456789",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 10 #20-30",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c435"
+  },
+  "nombre": "Pedro López",
+  "email": "pedro.lopez@example.com",
+  "telefonos": [
+    {
+      "numero": "3034567890",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 50 #60-70",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c436"
+  },
+  "nombre": "Luisa Fernández",
+  "email": "luisa.fernandez@example.com",
+  "telefonos": [
+    {
+      "numero": "3045678901",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 70 #80-90",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c437"
+  },
+  "nombre": "Carlos Martínez",
+  "email": "carlos.martinez@example.com",
+  "telefonos": [
+    {
+      "numero": "3056789012",
+      "codigoPais": "+57",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 5 #15-25",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c438"
+  },
+  "nombre": "Ana Torres",
+  "email": "ana.torres@example.com",
+  "telefonos": [
+    {
+      "numero": "3067890123",
+      "codigoPais": "+57",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 40 #50-60",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c439"
+  },
+  "nombre": "David Ramírez",
+  "email": "david.ramirez@example.com",
+  "telefonos": [
+    {
+      "numero": "3078901234",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 25 #35-45",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43a"
+  },
+  "nombre": "Laura Castillo",
+  "email": "laura.castillo@example.com",
+  "telefonos": [
+    {
+      "numero": "3089012345",
+      "codigoPais": "+57",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Carrera 20 #30-40",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43b"
+  },
+  "nombre": "Andrés Mendoza",
+  "email": "andres.mendoza@example.com",
+  "telefonos": [
+    {
+      "numero": "3090123456",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida 60 #70-80",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40e"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43c"
+  },
+  "nombre": "Sofía Morales",
+  "email": "sofia.morales@example.com",
+  "telefonos": [
+    {
+      "numero": "3101234567",
+      "codigoPais": "+57",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Calle 90 #100-110",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c40e"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43d"
+  },
+  "nombre": "João Silva",
+  "email": "joao.silva@example.com",
+  "telefonos": [
+    {
+      "numero": "21987654321",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua das Flores, 123",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43e"
+  },
+  "nombre": "Maria Oliveira",
+  "email": "maria.oliveira@example.com",
+  "telefonos": [
+    {
+      "numero": "31987654321",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Brasil, 456",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41a"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c43f"
+  },
+  "nombre": "Pedro Santos",
+  "email": "pedro.santos@example.com",
+  "telefonos": [
+    {
+      "numero": "21987654322",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Mercado, 789",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c440"
+  },
+  "nombre": "Ana Costa",
+  "email": "ana.costa@example.com",
+  "telefonos": [
+    {
+      "numero": "31987654322",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Paulista, 101",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c441"
+  },
+  "nombre": "Carlos Pereira",
+  "email": "carlos.pereira@example.com",
+  "telefonos": [
+    {
+      "numero": "21987654323",
+      "codigoPais": "+55",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Ouro, 202",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c442"
+  },
+  "nombre": "Julia Almeida",
+  "email": "julia.almeida@example.com",
+  "telefonos": [
+    {
+      "numero": "31987654323",
+      "codigoPais": "+55",
+      "uso": "trabajo"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Atlântica, 303",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c443"
+  },
+  "nombre": "Roberto Lima",
+  "email": "roberto.lima@example.com",
+  "telefonos": [
+    {
+      "numero": "21987654324",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua do Sol, 404",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c444"
+  },
+  "nombre": "Marina Ribeiro",
+  "email": "marina.ribeiro@example.com",
+  "telefonos": [
+    {
+      "numero": "31987654324",
+      "codigoPais": "+55",
+      "uso": "móvil"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida das Américas, 505",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c41d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c445"
+  },
+  "nombre": "Fernando Gomes",
+  "email": "fernando.gomes@example.com",
+  "telefonos": [
+    {
+      "numero": "21987654325",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Rua da Praia, 606",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c421"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5f17d01428f7fd52c446"
+  },
+  "nombre": "Carla Souza",
+  "email": "carla.souza@example.com",
+  "telefonos": [
+    {
+      "numero": "31987654325",
+      "codigoPais": "+55",
+      "uso": "casa"
+    }
+  ],
+  "direccion": {
+    "direccion": "Avenida Independência, 707",
+    "ciudad_pais": {
+      "$oid": "668c5de8d01428f7fd52c421"
+    }
+  }
+}
+]

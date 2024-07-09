@@ -1,0 +1,390 @@
+[{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c40b"
+  },
+  "ciudad": {
+    "codigoCiudad": "601",
+    "nombreCiudad": "Bogotá"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c40c"
+  },
+  "ciudad": {
+    "codigoCiudad": "602",
+    "nombreCiudad": "Medellín"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c40d"
+  },
+  "ciudad": {
+    "codigoCiudad": "603",
+    "nombreCiudad": "Cali"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c40e"
+  },
+  "ciudad": {
+    "codigoCiudad": "604",
+    "nombreCiudad": "Barranquilla"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c40f"
+  },
+  "ciudad": {
+    "codigoCiudad": "605",
+    "nombreCiudad": "Cartagena"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c410"
+  },
+  "ciudad": {
+    "codigoCiudad": "606",
+    "nombreCiudad": "Bucaramanga"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c411"
+  },
+  "ciudad": {
+    "codigoCiudad": "607",
+    "nombreCiudad": "Pereira"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c412"
+  },
+  "ciudad": {
+    "codigoCiudad": "608",
+    "nombreCiudad": "Santa Marta"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c413"
+  },
+  "ciudad": {
+    "codigoCiudad": "609",
+    "nombreCiudad": "Cúcuta"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c414"
+  },
+  "ciudad": {
+    "codigoCiudad": "610",
+    "nombreCiudad": "Ibagué"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c415"
+  },
+  "ciudad": {
+    "codigoCiudad": "611",
+    "nombreCiudad": "Manizales"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c416"
+  },
+  "ciudad": {
+    "codigoCiudad": "612",
+    "nombreCiudad": "Pasto"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c417"
+  },
+  "ciudad": {
+    "codigoCiudad": "613",
+    "nombreCiudad": "Montería"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c418"
+  },
+  "ciudad": {
+    "codigoCiudad": "614",
+    "nombreCiudad": "Villavicencio"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c419"
+  },
+  "ciudad": {
+    "codigoCiudad": "615",
+    "nombreCiudad": "Neiva"
+  },
+  "pais": {
+    "codigoPais": "57",
+    "nombrePais": "Colombia"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41a"
+  },
+  "ciudad": {
+    "codigoCiudad": "301",
+    "nombreCiudad": "São Paulo"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41b"
+  },
+  "ciudad": {
+    "codigoCiudad": "302",
+    "nombreCiudad": "Rio de Janeiro"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41c"
+  },
+  "ciudad": {
+    "codigoCiudad": "303",
+    "nombreCiudad": "Belo Horizonte"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41d"
+  },
+  "ciudad": {
+    "codigoCiudad": "304",
+    "nombreCiudad": "Brasília"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41e"
+  },
+  "ciudad": {
+    "codigoCiudad": "305",
+    "nombreCiudad": "Curitiba"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c41f"
+  },
+  "ciudad": {
+    "codigoCiudad": "306",
+    "nombreCiudad": "Porto Alegre"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c420"
+  },
+  "ciudad": {
+    "codigoCiudad": "307",
+    "nombreCiudad": "Salvador"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c421"
+  },
+  "ciudad": {
+    "codigoCiudad": "308",
+    "nombreCiudad": "Fortaleza"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c422"
+  },
+  "ciudad": {
+    "codigoCiudad": "309",
+    "nombreCiudad": "Recife"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c423"
+  },
+  "ciudad": {
+    "codigoCiudad": "310",
+    "nombreCiudad": "Manaus"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c424"
+  },
+  "ciudad": {
+    "codigoCiudad": "311",
+    "nombreCiudad": "Goiânia"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c425"
+  },
+  "ciudad": {
+    "codigoCiudad": "312",
+    "nombreCiudad": "Belém"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c426"
+  },
+  "ciudad": {
+    "codigoCiudad": "313",
+    "nombreCiudad": "Florianópolis"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c427"
+  },
+  "ciudad": {
+    "codigoCiudad": "314",
+    "nombreCiudad": "Campo Grande"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+},
+{
+  "_id": {
+    "$oid": "668c5de8d01428f7fd52c428"
+  },
+  "ciudad": {
+    "codigoCiudad": "315",
+    "nombreCiudad": "Natal"
+  },
+  "pais": {
+    "codigoPais": "55",
+    "nombrePais": "Brasil"
+  }
+}]
