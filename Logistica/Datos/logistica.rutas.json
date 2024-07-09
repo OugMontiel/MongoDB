@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "668d3015e53be7a28a3834f6"
+  },
+  "descripcionRuta": "Ruta de entrega de productos perecederos a supermercados. Hora de salida: 6:00 AM. Importancia: Alta.",
+  "sucursal": {
+    "$oid": "668c5e69d01428f7fd52c429"
+  },
+  "auxiliar": [
+    {
+      "$oid": "668cac5afb939deedd03e99a"
+    },
+    {
+      "$oid": "668cac5afb939deedd03e99b"
+    }
+  ],
+  "placasVehiculo": "FZT892",
+  "conductor": {
+    "$oid": "668cac5afb939deedd03e995"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3015e53be7a28a3834f7"
+  },
+  "descripcionRuta": "Ruta de distribución de materiales de construcción a diferentes sitios de obra. Hora de salida: 7:30 AM. Importancia: Media.",
+  "sucursal": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "auxiliar": [
+    {
+      "$oid": "668cac5afb939deedd03e99c"
+    },
+    {
+      "$oid": "668cac5afb939deedd03e99d"
+    }
+  ],
+  "placasVehiculo": "RMD456",
+  "conductor": {
+    "$oid": "668cac5afb939deedd03e996"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3015e53be7a28a3834f8"
+  },
+  "descripcionRuta": "Ruta de recogida de residuos reciclables en varios puntos de la ciudad. Hora de salida: 5:00 AM. Importancia: Alta.",
+  "sucursal": {
+    "$oid": "668c5e69d01428f7fd52c42b"
+  },
+  "auxiliar": [
+    {
+      "$oid": "668cac5afb939deedd03e99e"
+    },
+    {
+      "$oid": "668cac5afb939deedd03e99f"
+    }
+  ],
+  "placasVehiculo": "NKT123",
+  "conductor": {
+    "$oid": "668cac5afb939deedd03e997"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  },
+  "descripcionRuta": "Ruta de entrega de equipos electrónicos a tiendas minoristas. Hora de salida: 8:00 AM. Importancia: Alta.",
+  "sucursal": {
+    "$oid": "668c5e69d01428f7fd52c42c"
+  },
+  "auxiliar": [
+    {
+      "$oid": "668cac5afb939deedd03e9a0"
+    },
+    {
+      "$oid": "668cac5afb939deedd03e9a1"
+    }
+  ],
+  "placasVehiculo": "ZLP789",
+  "conductor": {
+    "$oid": "668cac5afb939deedd03e998"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3015e53be7a28a3834fa"
+  },
+  "descripcionRuta": "Ruta de distribución de alimentos no perecederos a comedores comunitarios. Hora de salida: 7:00 AM. Importancia: Media.",
+  "sucursal": {
+    "$oid": "668c5e69d01428f7fd52c42d"
+  },
+  "auxiliar": [
+    {
+      "$oid": "668cac5afb939deedd03e9a2"
+    },
+    {
+      "$oid": "668cac5afb939deedd03e9a3"
+    }
+  ],
+  "placasVehiculo": "GYW345",
+  "conductor": {
+    "$oid": "668cac5afb939deedd03e999"
+  }
+}]

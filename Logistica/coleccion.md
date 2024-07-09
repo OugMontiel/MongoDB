@@ -17,6 +17,7 @@ Primera colección: Sucursales --Naranja
   } 
 }
 ```
+
 Segunda Colección : Cliente  -- Azul
 
 ```json
@@ -37,6 +38,7 @@ Segunda Colección : Cliente  -- Azul
   } 
 }
 ```
+
 Tercer Coleccion: Vehiculos  -- Amarillo 
 
 ```json
@@ -69,8 +71,6 @@ Cuerto Coleccion: Empleados  -- Rojo
   },
   "rol": "Auxiliar"  // Rol del empleado en la organización (e.g., Auxiliar, Conductor)
 }
-
-
 ```
 
 Quinta Coleccion: Rutas -- Verde
@@ -114,10 +114,10 @@ Sexta Colección: Envíos -- Morado
     "fecha_envio": ISODate("2023-07-04T10:00:00Z"),  // Fecha del envío
     "ruta_id": ObjectId("ID de la Ruta")  // ID de la ruta
 }
-
 ```
 
-Septima Coleccion: Paquetes -- Amarillo 
+Septima Coleccion: Paquetes -- Amarillo
+
 ```json 
  {
    "_id": ObjectId("ID único del paquete"),  // ID único para el paquete

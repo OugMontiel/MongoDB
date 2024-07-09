@@ -1,0 +1,420 @@
+[{
+  "_id": {
+    "$oid": "668d31eae53be7a28a3834fb"
+  },
+  "peso": 0.5,
+  "dimensiones": [
+    20,
+    15,
+    5
+  ],
+  "contenido": "Teléfono móvil",
+  "valor_declarado": 300000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a3834fc"
+  },
+  "peso": 1.2,
+  "dimensiones": [
+    30,
+    20,
+    10
+  ],
+  "contenido": "Ropa de bebé",
+  "valor_declarado": 50000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a3834fd"
+  },
+  "peso": 2,
+  "dimensiones": [
+    25,
+    20,
+    15
+  ],
+  "contenido": "Libros",
+  "valor_declarado": 100000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a3834fe"
+  },
+  "peso": 3.5,
+  "dimensiones": [
+    40,
+    30,
+    20
+  ],
+  "contenido": "Juego de sábanas",
+  "valor_declarado": 150000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a3834ff"
+  },
+  "peso": 0.8,
+  "dimensiones": [
+    25,
+    15,
+    8
+  ],
+  "contenido": "Auriculares",
+  "valor_declarado": 80000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383500"
+  },
+  "peso": 5,
+  "dimensiones": [
+    50,
+    40,
+    30
+  ],
+  "contenido": "Mini horno eléctrico",
+  "valor_declarado": 250000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383501"
+  },
+  "peso": 0.3,
+  "dimensiones": [
+    10,
+    10,
+    5
+  ],
+  "contenido": "Reloj de pulsera",
+  "valor_declarado": 120000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383502"
+  },
+  "peso": 2.5,
+  "dimensiones": [
+    35,
+    25,
+    15
+  ],
+  "contenido": "Zapatos deportivos",
+  "valor_declarado": 200000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383503"
+  },
+  "peso": 1,
+  "dimensiones": [
+    20,
+    20,
+    10
+  ],
+  "contenido": "Juguetes",
+  "valor_declarado": 70000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383504"
+  },
+  "peso": 4,
+  "dimensiones": [
+    45,
+    35,
+    25
+  ],
+  "contenido": "Monitor de computadora",
+  "valor_declarado": 350000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383505"
+  },
+  "peso": 3,
+  "dimensiones": [
+    40,
+    30,
+    20
+  ],
+  "contenido": "Tostadora",
+  "valor_declarado": 180000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383506"
+  },
+  "peso": 2.8,
+  "dimensiones": [
+    35,
+    25,
+    15
+  ],
+  "contenido": "Ropa deportiva",
+  "valor_declarado": 90000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383507"
+  },
+  "peso": 6,
+  "dimensiones": [
+    60,
+    50,
+    40
+  ],
+  "contenido": "Microondas",
+  "valor_declarado": 450000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383508"
+  },
+  "peso": 0.7,
+  "dimensiones": [
+    20,
+    15,
+    8
+  ],
+  "contenido": "Perfume",
+  "valor_declarado": 100000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d31eae53be7a28a383509"
+  },
+  "peso": 4.5,
+  "dimensiones": [
+    50,
+    40,
+    35
+  ],
+  "contenido": "Cafetera",
+  "valor_declarado": 300000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350a"
+  },
+  "peso": 1.5,
+  "dimensiones": [
+    30,
+    20,
+    15
+  ],
+  "contenido": "Tablet",
+  "valor_declarado": 250000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350b"
+  },
+  "peso": 0.2,
+  "dimensiones": [
+    10,
+    10,
+    5
+  ],
+  "contenido": "Pendrive USB",
+  "valor_declarado": 30000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350c"
+  },
+  "peso": 3,
+  "dimensiones": [
+    40,
+    30,
+    20
+  ],
+  "contenido": "Camisa y pantalón",
+  "valor_declarado": 80000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350d"
+  },
+  "peso": 2.3,
+  "dimensiones": [
+    35,
+    25,
+    15
+  ],
+  "contenido": "Herramientas manuales",
+  "valor_declarado": 120000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350e"
+  },
+  "peso": 4,
+  "dimensiones": [
+    45,
+    35,
+    25
+  ],
+  "contenido": "Impresora",
+  "valor_declarado": 400000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a38350f"
+  },
+  "peso": 0.5,
+  "dimensiones": [
+    15,
+    10,
+    5
+  ],
+  "contenido": "Libro",
+  "valor_declarado": 50000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383510"
+  },
+  "peso": 6.5,
+  "dimensiones": [
+    55,
+    45,
+    35
+  ],
+  "contenido": "Parlante portátil",
+  "valor_declarado": 350000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383511"
+  },
+  "peso": 1,
+  "dimensiones": [
+    25,
+    15,
+    10
+  ],
+  "contenido": "Set de maquillaje",
+  "valor_declarado": 70000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383512"
+  },
+  "peso": 2,
+  "dimensiones": [
+    30,
+    20,
+    15
+  ],
+  "contenido": "Juguetes para niños",
+  "valor_declarado": 90000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383513"
+  },
+  "peso": 5,
+  "dimensiones": [
+    50,
+    40,
+    30
+  ],
+  "contenido": "Aspiradora",
+  "valor_declarado": 300000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383514"
+  },
+  "peso": 0.8,
+  "dimensiones": [
+    20,
+    15,
+    10
+  ],
+  "contenido": "Cámara fotográfica",
+  "valor_declarado": 200000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383515"
+  },
+  "peso": 3.5,
+  "dimensiones": [
+    40,
+    30,
+    20
+  ],
+  "contenido": "Par de zapatillas",
+  "valor_declarado": 150000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383516"
+  },
+  "peso": 1.2,
+  "dimensiones": [
+    25,
+    20,
+    15
+  ],
+  "contenido": "Reloj inteligente",
+  "valor_declarado": 250000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383517"
+  },
+  "peso": 4.2,
+  "dimensiones": [
+    45,
+    35,
+    25
+  ],
+  "contenido": "Lámpara de escritorio",
+  "valor_declarado": 100000,
+  "Clasificacion": "Express"
+},
+{
+  "_id": {
+    "$oid": "668d3218e53be7a28a383518"
+  },
+  "peso": 2.5,
+  "dimensiones": [
+    35,
+    25,
+    20
+  ],
+  "contenido": "Juego de utensilios de cocina",
+  "valor_declarado": 180000,
+  "Clasificacion": "Express"
+}]

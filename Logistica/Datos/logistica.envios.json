@@ -1,0 +1,631 @@
+[{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383519"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c433"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a3834fb"
+    },
+    {
+      "$oid": "668d31eae53be7a28a3834fc"
+    },
+    {
+      "$oid": "668d31eae53be7a28a3834fd"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c429"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f6"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351a"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c434"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a3834fe"
+    },
+    {
+      "$oid": "668d31eae53be7a28a3834ff"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383500"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42b"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f7"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351b"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c435"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a383501"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383502"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42c"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42b"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f8"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351c"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c436"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a383503"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383504"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383505"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42d"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42c"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351d"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c437"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a383506"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383507"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42e"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42d"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Retenido en aduana",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834fa"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351e"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c438"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a383508"
+    },
+    {
+      "$oid": "668d31eae53be7a28a383509"
+    },
+    {
+      "$oid": "668d3218e53be7a28a38350a"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42f"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42e"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-06T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a38351f"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c439"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a38350b"
+    },
+    {
+      "$oid": "668d3218e53be7a28a38350c"
+    },
+    {
+      "$oid": "668d3218e53be7a28a38350d"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c430"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42f"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834fa"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383520"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43a"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a38350e"
+    },
+    {
+      "$oid": "668d3218e53be7a28a38350f"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c431"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c430"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383521"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43b"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a383510"
+    },
+    {
+      "$oid": "668d3218e53be7a28a383511"
+    },
+    {
+      "$oid": "668d3218e53be7a28a383512"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c432"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c431"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383522"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43c"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a383513"
+    },
+    {
+      "$oid": "668d3218e53be7a28a383514"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c429"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-06T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f7"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383523"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43d"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a383515"
+    },
+    {
+      "$oid": "668d3218e53be7a28a383516"
+    },
+    {
+      "$oid": "668d3218e53be7a28a383517"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42b"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f8"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383524"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43e"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d3218e53be7a28a383518"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42d"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c42c"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "668d3c03e53be7a28a383525"
+  },
+  "cliente_id": {
+    "$oid": "668c5f17d01428f7fd52c43f"
+  },
+  "paquete_id": [
+    {
+      "$oid": "668d31eae53be7a28a3834fb"
+    },
+    {
+      "$oid": "668d31eae53be7a28a3834fc"
+    },
+    {
+      "$oid": "668d31eae53be7a28a3834fd"
+    }
+  ],
+  "sucursal_destino": {
+    "$oid": "668c5e69d01428f7fd52c42a"
+  },
+  "sucursal_origen": {
+    "$oid": "668c5e69d01428f7fd52c429"
+  },
+  "estado_Envio": [
+    {
+      "estado": "En tránsito",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-04T12:00:00.000Z"
+      }
+    },
+    {
+      "estado": "Entregado",
+      "ubicacion": {
+        "latitud": 37.7749,
+        "longitud": -122.4194
+      },
+      "fecha_hora": {
+        "$date": "2023-07-05T12:00:00.000Z"
+      }
+    }
+  ],
+  "fecha_envio": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "ruta_id": {
+    "$oid": "668d3015e53be7a28a3834f6"
+  }
+}]
